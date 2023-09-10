@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    
+   
+}
+
+.material_container{
+    background-color: red;
+    height: 100vh;
+    background-color: #E5EDF2;
+}
+.material_header{
+    background-color:#8986e8;
+    color:white;
+    padding: 10px 0 10px 10px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.material_content_box{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-top: 60px;
+
+    
+ 
+    
+}
+.leftside{
+   
+    background-color: #E5EDF2;
+    width:35%;
+    margin-right: 25px;
+
+}
+
+.rightside{
+    
+    background-color: #FDFDFD;
+    width:65%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.todayUsage{
+    height: 165px;
+    background-color: #FDFDFD;
+    margin: 0 25px 25px 0px;
+    border-radius: 5px;
+}
+
+.todayUsage_header {
+    font-size: 20px;
+    text-align: center;
+    color: #8986e8;
+    padding-top: 10px;
+}
+
+.today_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.wareHouse {
+    height: 165px;
+    background-color: #FDFDFD;
+    margin: 0 25px 25px 0px;
+    border-radius: 5px;
+}
+
+.warehouse_header{
+    font-size: 20px;
+    text-align: center;
+    color: #8986e8;
+    padding-top: 10px;
+}
+.subHeader{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.subcontent_container{
+
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subcontent_container_usage{
+
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.subcontent{
+    
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3px;
+}
+.span{
+    color: rgb(85, 78, 78);
+    margin-left: 5px;
+}
+
+.report{
+    height: 165px;
+    background-color: #FDFDFD;
+    margin: 0 25px 0px 0px;
+    border-radius: 5px;
+}
+
+.report_header {
+    font-size: 20px;
+    text-align: center;
+    color: #8986e8;
+    padding-top: 25px;
+}
+
+.report_subhead{
+    color:#8986e8;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.report_button{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* .chart_header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #8986e8;
+} */
+
+.innerchart_header{
+    font-family: 'Poppins',sans-serif;
+    color: #8986e8;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+   
+}
+
+.right_contain{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 100%;
+}
+
+.reso_usage{
+    width:50%;
+    
+    
+}
+
+.reseff_algo{
+    width: 50%;
+    
+}
+
+
+
