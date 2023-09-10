@@ -23,6 +23,13 @@
     width: 100%;
     margin-bottom: 10%;
 }
+.link{
+    text-decoration: none;
+    color: black;
+}
+.st{
+    color: red;
+}
 .labours{
     display: flex;
     background-color: #fff;
@@ -91,7 +98,10 @@ img{
     flex-direction: column;
     overflow: scroll;
 }
-
+.inp{
+    margin: 20px;
+    margin-left: 70px;
+}
 .message{
     background-color:#d9d8fa;
     margin: 2px;
@@ -139,6 +149,15 @@ img{
     -o-border-radius: 10px;
 }
 .buton{
+
+    border-bottom: 2px solid purple;
+
+}
+#logout:hover{
+    color: black;
+opacity: 0.8;
+}
+input{
     background-color:#A09DF4;
     padding: 10px;
     border-radius: 10px;
@@ -146,7 +165,4 @@ img{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-.buton:hover{
-    opacity: 0.8;
 }
