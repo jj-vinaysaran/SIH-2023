@@ -1,5 +1,6 @@
 import React from 'react'
 import './visual.css';
+import cmp from "../../images/cmp.jpg"
 const Visual = () => {
   return (
     <div>
@@ -23,7 +24,7 @@ const Visual = () => {
           </div>
         </div>
         <div className='visual-right'>
-
+            <img src={cmp} className='visual-model'/>
         </div>
       </div>
 
