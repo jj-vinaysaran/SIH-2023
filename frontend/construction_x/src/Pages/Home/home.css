@@ -28,7 +28,7 @@
     color: black;
 }
 .st{
-    color: red;
+    color:rgb(85,78,78);
 }
 .labours{
     display: flex;
@@ -130,15 +130,18 @@ img{
     -o-border-radius: 20px;
 }
 .labtext{
+    color: #8986E8;
     border-bottom: 2px solid purple;
     margin-top: 100px;
 }
 .wt{
+    color: #8986E8;
     margin-bottom: 10px;
     border-bottom: 2px solid purple;
 }
 .ware{
-    background-color:#d9d8fa;
+    /* background-color:#d9d8fa; */
+
     width: 90%;
     font-size: 20px;
     padding: 10px;
@@ -149,9 +152,12 @@ img{
     -o-border-radius: 10px;
 }
 .buton{
-
+    color: #8986E8;
     border-bottom: 2px solid purple;
 
+}
+#logout{
+    margin-left: 50%;
 }
 #logout:hover{
     color: black;

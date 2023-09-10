@@ -83,11 +83,11 @@ const Home = () => {
               </div>
             </div>
             <div className='b1'>
-              <h2 className='wt'>WareHouse</h2>
+              <h2 className='wt' >WareHouse</h2>
               <div className='ware'>
-                <h3>No of available Cement-<span className='st'>20 units</span> </h3>
-                <h3>No of available sand- <span className='st'>30 units</span></h3>
-                <h3>No of available gravel- <span className='st'>30 units</span> </h3>
+                <h3>Available Cement-<span className='st'>20 units</span> </h3>
+                <h3>Available sand- <span className='st'>30 units</span></h3>
+                <h3>Available gravel- <span className='st'>30 units</span> </h3>
 
               </div>
             </div>
