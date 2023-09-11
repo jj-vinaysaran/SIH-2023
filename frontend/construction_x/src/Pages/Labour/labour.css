@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    height: 100vh;
+    overflow: hidden;
+}
+.labour_bg{
+    background:#E5EDF2;
+    height: 100vh;
+}
+.labour_nav{
+    background: #A09DF4;
+    height:7%;
+}
+.labour_head{
+   color: white;
+   text-transform: uppercase;
+   padding: 10px 0px 10px 10px;
+   font-weight: 300;
+   font-family: 'Poppins',sans-serif;
+}
+.labour_container{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background:#E5EDF2;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+.labour_left{
+    background: #E5EDF2;
+    width: 35%;
+    position: relative;
+    top: -30px;
+    margin-right: 50px;
+}
+.labour_right{
+    background:#FDFDFD;
+    width: 65%;
+    position: relative;
+    top: -30px;
+    border-radius:15px ;
+}
+.labour_search{
+    background: #FDFDFD;
+    height: 20%;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.labour_drop{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 5px;
+}
+button{
+    width: fit-content;
+}
+.labour_task{
+    background:#FDFDFD;
+    height: 20%;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.labour_attendance{
+    background: #FDFDFD;
+    height: fit-content;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.labour_sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #8986E2;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    
+}
+.labour_map{
+    height: 90%;
+    width: 100%;
+}
+.labour_txt{
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+
+button {
+    background-color:#8986E2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+span{
+    color:rgb(89,78,78);
+
+}
