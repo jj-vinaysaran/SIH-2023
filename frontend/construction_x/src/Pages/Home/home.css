@@ -96,7 +96,7 @@ img{
     justify-content: center;
     align-items: center ;
     flex-direction: column;
-    overflow: scroll;
+    overflow: hidden;
 }
 .inp{
     margin: 20px;
@@ -141,7 +141,7 @@ img{
 }
 .ware{
     /* background-color:#d9d8fa; */
-
+    overflow: hidden;
     width: 90%;
     font-size: 20px;
     padding: 10px;
@@ -155,6 +155,9 @@ img{
     color: #8986E8;
     border-bottom: 2px solid purple;
 
+}
+#madhankonar{
+    overflow: scroll;
 }
 #logout{
     margin-left: 50%;
