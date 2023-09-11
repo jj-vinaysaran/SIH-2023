@@ -61,7 +61,7 @@ const Home = () => {
 
        
         <div className='main_three'>
-            <div className='b1'>
+            <div className='b1' id='madhankonar'>
               <h2 className='labtext'>Labour Line</h2>
               <div class='message'>
                             <div class="msg_row">
