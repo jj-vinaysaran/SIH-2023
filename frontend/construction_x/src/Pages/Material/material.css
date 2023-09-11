@@ -23,7 +23,8 @@
     display: flex;
     flex-direction: row;
     padding: 50px;
-    padding-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     
  
@@ -49,7 +50,7 @@
 }
 
 .todayUsage{
-    height: 165px;
+    height: 125px;
     background-color: #FDFDFD;
     margin: 0 25px 25px 0px;
     border-radius: 5px;
@@ -68,7 +69,7 @@
 }
 
 .wareHouse {
-    height: 165px;
+    height: 125px;
     background-color: #FDFDFD;
     margin: 0 25px 25px 0px;
     border-radius: 5px;
@@ -81,7 +82,7 @@
     padding-top: 10px;
 }
 .subHeader{
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
     margin-left: 25px;
@@ -89,7 +90,7 @@
 
 .subcontent_container{
 
-    padding-left: 25px;
+    padding-left: 75px;
     padding-top: 10px;
     font-family: 'Poppins', sans-serif;
 }
@@ -104,7 +105,7 @@
 
 .subcontent{
     
-    font-size: 13px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 3px;
 }
@@ -114,7 +115,7 @@
 }
 
 .report{
-    height: 165px;
+    height: 125px;
     background-color: #FDFDFD;
     margin: 0 25px 0px 0px;
     border-radius: 5px;
@@ -131,8 +132,8 @@
     color:#8986e8;
     font-family: 'Poppins',sans-serif;
     font-size: 20px;
-    margin-left: 10px;
-    margin-top: 25px;
+    margin-left: 70px;
+    margin-top: 15px;
 }
 
 .report_button{
@@ -152,8 +153,8 @@
     font-family: 'Poppins',sans-serif;
     color: #8986e8;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     text-decoration: underline;
    
 }
