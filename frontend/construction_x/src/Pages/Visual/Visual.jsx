@@ -19,8 +19,8 @@ const Visual = () => {
             <button className='vis-compare'>COMPARE</button>
           </div>
           <div className='visual-left-rtm'>
-          <h1 className='vis-rtm-text'>MONITOR WORK</h1>
-            <button className='vis-rtm'>MONITOR</button>
+          <h1 className='vis-rtm-text'>2D DESIGN</h1>
+            <button className='vis-rtm'>DESIGN</button>
           </div>
         </div>
         <div className='visual-right'>

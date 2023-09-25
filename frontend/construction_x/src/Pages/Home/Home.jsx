@@ -55,7 +55,7 @@ const Home = () => {
       </div>
       <div className='right_side'>
         <div className='nav_top'>
-          <h1  className='logtext'>ContructionX</h1>
+          <h1  className='logtext'>ConstructionX</h1>
           <h3 className='logtext' id='logout'>Logout</h3>
         </div>
        
@@ -75,12 +75,12 @@ const Home = () => {
               
               
               <div class='message'>
-                            <div class="msg_row">
-                                <img src={act} class="act_img"/>
-                                <h4 class="workername">Madhan Konar</h4>
-                                <h4>5/09/2023</h4>
-                            </div>
-                            <h4 class="workername">we have some problem with constructions</h4>
+                  <div class="msg_row">
+                      <img src={act} class="act_img"/>
+                      <h4 class="workername">Paal Pavan</h4>
+                      <h4>5/09/2023</h4>
+                  </div>
+                  <h4 class="workername">we have some problem with constructions</h4>
               </div>
             </div>
             <div className='b1'>
